@@ -1,0 +1,42 @@
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+html {
+    background-color: black;
+}
+body {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, serif;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding-left: 32px;
+    font-size:larger;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+    margin: 0px;
+    padding-right: 32px;
+    font-size: 16px;
+    align-items: center;
+}
+
+li {
+    color: white;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
