@@ -3,20 +3,20 @@ you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 html {
-    background-color: black;
+    /*background-color: black;*/
 }
 body {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, serif;
 }
 
 .header{
-    background-color: black;
+    background-color: #1F2937;
     display: flex;
     flex: 1;
     justify-content: space-between;
-    padding-left: 32px;
     font-size:larger;
     color: #F9FAF8;
 }
@@ -39,4 +39,57 @@ li {
     color: white;
     font-weight: bold;
     font-size: 24px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.first-section {
+    display: flex;
+    flex: 1;
+    background-color:#1F2937;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first-sec-left-side {
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    width: 500px;
+}
+
+.subtext {
+    width: 550px;
+}
+
+.second-section {
+    flex: 1;
+    display: flex;
+}
+
+.third-section {
+    flex: 1;
+    display: flex;
+}
+
+.fourth-section {
+    flex: 1;
+    display: flex;
 }
