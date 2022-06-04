@@ -85,12 +85,12 @@ button {
 .second-section {
     display: flex;
     flex-direction: column;
+    margin: 48px;
 }
 
 .second-section-title {
     text-align: center;
     font-size: 48px;
-    margin: 32px;
     font-weight: bold;
 }
 
@@ -98,7 +98,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .ilustration {
@@ -118,3 +117,31 @@ button {
 .ilustration-subtext {
     padding: 0px 4px;
 }
+
+/*HERE STARTS THE THIRD SECTION CSS */
+
+.third-section{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    margin: 64px 64px 0px 64px;
+}
+
+.quote-signature {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 64px;
+    margin-bottom: 64px;
+}
+
