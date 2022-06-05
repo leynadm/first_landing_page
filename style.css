@@ -4,6 +4,7 @@ you'll learn about it later. */
 
 body {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: space-between;
     font-family:Arial, Helvetica, sans-serif;
@@ -145,3 +146,43 @@ button {
     margin-bottom: 64px;
 }
 
+/* HERE STARTS THE FOURTH SECTION */
+
+.fourth-section {
+    
+}
+
+.square-container {
+    background-color:deepskyblue;
+    margin: 128px;
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.call-to-action-sign-up{
+    color: white;
+}
+
+.call-to-action-button{
+    background-color: transparent;
+    margin: 0px 32px 0px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+/* Here starts the footer */
