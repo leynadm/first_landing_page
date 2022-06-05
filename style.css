@@ -4,12 +4,13 @@ you'll learn about it later. */
 
 body {
     display: flex;
-    flex: 1;
     flex-direction: column;
     justify-content: space-between;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Roboto', Helvetica, sans-serif;
+    margin: 0px;
 }
 
+/*HEADER SECTION OF THE WEBSITE */
 .header{
     background-color: #1F2937;
     display: flex;
@@ -39,9 +40,7 @@ li {
     font-size: 24px;
 }
 
-.image-first-section {
-   
-}
+/* FIRST SECTION OF THE WEBSITE */
 
 .first-section {
     display: flex;
@@ -58,9 +57,9 @@ li {
     
 }
 
-.second-sec-right-side {
-    
+.second-sec-right-side img {
     margin: 32px;
+    border-radius: 8px;
 }
 
 button {
@@ -186,3 +185,12 @@ button {
 }
 
 /* Here starts the footer */
+
+.footer-text{
+    background-color: #1F2937;
+    color: white;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
