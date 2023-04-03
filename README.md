@@ -11,3 +11,4 @@ The second section is composed of multiple illustrations, each with their own su
 
 The third section has a centered inspiring quote and a quote signature. Lastly, the fourth section is composed of a square container with a call-to-action button.
 
+![screenshot of my first landing page](https://raw.githubusercontent.com/leynadm/first_landing_page/main/screenshot.png)
