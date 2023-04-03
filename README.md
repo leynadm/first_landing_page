@@ -1,7 +1,7 @@
 # first_landing_page
 This is my first projecti in building a landing page from scratch using HTML & CSS.
 
-This is a landing page project from The Odin Project curriculum that helped me learn various concepts related to page layout, including flexbox. 
+It helped me learn various concepts related to page layout, including flexbox. 
 
 The page is divided into four sections.
 
